@@ -8,9 +8,9 @@ def key_for_min_value(name_hash)
     compare_num = 1.0/0 
     if v < compare_num 
       compare_num = v 
+      puts compare_num 
     end
   end 
-  puts compare_num
 end
 
 key_for_min_value(hash)
