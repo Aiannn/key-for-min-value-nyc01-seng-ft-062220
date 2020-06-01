@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       compare_num = v 
     end
   end 
-  return 
+  return name_hash.index()
 end
 
 key_for_min_value(hash)
