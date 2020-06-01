@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       compare_num = v 
     end
   end 
-  puts k 
+  puts k[v]
 end
 
 key_for_min_value(hash)
