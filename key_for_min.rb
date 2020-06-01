@@ -11,6 +11,7 @@ def key_for_min_value(name_hash)
     end
     puts compare_num 
   end 
+  puts compare_num 
 end
 
 key_for_min_value(hash)
